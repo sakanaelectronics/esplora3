@@ -13,9 +13,9 @@
 #include <lorawan.h>
 
 // OTAA credentials
-const char *devEui = "229b373ddffb7dAA";
-const char *appEui = "0000000000000001";
-const char *appKey = "your-access-key";
+const char *devEui = "your 16 digit devEUI";
+const char *appEui = "your 32 digit appeui";
+const char *appKey = "your 32 digit appeui";
 
 const unsigned long interval = 10000;    // 10 s interval to send message
 unsigned long previousMillis = 0;  // will store last time message sent
@@ -82,7 +82,7 @@ void loop() {
   if (millis() - previousMillis > interval) {
     previousMillis = millis();
 
-    sprintf(myStr, "Lora Counter-%d", counter);
+    sprintf(myStr, "-%d Hallo ESPLORA3", counter++);
 
     Serial.print("Sending: ");
     Serial.println(myStr);

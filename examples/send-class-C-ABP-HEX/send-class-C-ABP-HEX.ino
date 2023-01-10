@@ -13,9 +13,9 @@
 #include <lorawan.h>
 
 //ABP Credentials
-const char *devAddr = "4ff6c1bd";
-const char *nwkSKey = "93df5e92cbaf1efc0000000000000000";
-const char *appSKey = "000000000000000002e21425cc8ccfa2";
+const char *devAddr = "your 8 digit devADDR";
+const char *nwkSKey = "your 32 digit nwkskey";
+const char *appSKey = "your 32 digit appskey";
 
 
 const unsigned long interval = 10000;    // 10 s interval to send message
