@@ -12,10 +12,10 @@ ESPLORA3 adalah modul yang menggabungkan **ESP32** dan **LoRa** dalam satu board
 ## Tampilan Board
 
 ### Tampak Atas
-![Top View](esplora3/Images/TOP.png)
+![Top View](Images/TOP.png)
 
 ### Tampak Bawah
-![Bottom View](esplora3/Images/BOTTOM.png)
+![Bottom View](Images/BOTTOM.png)
 
 ## Penggunaan
 
