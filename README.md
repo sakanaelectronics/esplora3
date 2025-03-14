@@ -47,8 +47,8 @@ ESPLORA3 adalah modul yang menggabungkan **ESP32** dan **LoRa** dalam satu board
    - **Point-to-Point**: Gunakan dua board ESPLORA3 untuk komunikasi langsung.
    - **ANTARES LoRaWAN**: Hubungkan ke ke Platform Antares untuk integrasi dengan jaringan LPWAN (Pastikan lokasi anda sudah tercover).
 
-##Program
-###P2P
+## Program
+### P2P
 ```cpp
 #include <SPI.h>
 #include <LoRa.h>
@@ -82,7 +82,7 @@ void setup() {
 ..........
 ```
 
-###Antares LoRaWAN
+### Antares LoRaWAN
 ```cpp
 #include <lorawan.h>
 
