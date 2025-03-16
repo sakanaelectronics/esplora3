@@ -45,7 +45,7 @@ ESPLORA3 adalah modul yang menggabungkan **ESP32** dan **LoRa** dalam satu board
 
 3. **Implementasi Jaringan**  
    - **Point-to-Point**: Gunakan dua board ESPLORA3 untuk komunikasi langsung.
-   - **ANTARES LoRaWAN**: Hubungkan ke ke Platform Antares untuk integrasi dengan jaringan LPWAN (Pastikan lokasi anda sudah tercover).
+   - **ANTARES LoRaWAN**: Hubungkan ke Platform Antares untuk integrasi dengan jaringan LPWAN (Pastikan lokasi anda sudah tercover).
 
 ## Program
 ### P2P
@@ -130,7 +130,7 @@ ESPLORA3 dapat dibeli melalui **Tokopedia**:
 ## Referensi
 
 - [Tutorial Lora P2P](https://randomnerdtutorials.com/esp32-lora-rfm95-transceiver-arduino-ide/)
-- [Panduan LoRaWAN Antares](https://docs.antares.id/contoh-kode-dan-library/esp32-lora)
+- [Tutorial LoRaWAN Antares](https://docs.antares.id/contoh-kode-dan-library/esp32-lora)
 
 ## Tentang Kami
 ESPLORA3 dibuat oleh **PT Kreasi Sakana Elektronik**, sebuah perusahaan yang bergerak di bidang pengembangan perangkat elektronik dan IoT.  
